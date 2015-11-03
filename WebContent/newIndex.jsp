@@ -56,7 +56,7 @@
 								</ul></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="register.jsp">Register</a></li>	
+							<li><a href="newRegistration.jsp">Register</a></li>	
 							<li><a href="newLogin.jsp">Sing In</a></li>
 						</ul>	
 					</div>

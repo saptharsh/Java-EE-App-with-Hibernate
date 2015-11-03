@@ -1,9 +1,3 @@
-<%--
-Document : index
-Created on : Nov 5, 2012, 6:06:23 PM
-Author	 : mano
---%>
-
 <%@page import="java.util.List"%>
 <%@page import="org.app.service.LoginService"%>
 <%@page import="java.util.Date"%>

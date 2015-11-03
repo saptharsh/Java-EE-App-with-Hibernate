@@ -18,8 +18,6 @@
 <!-- Custom style -->
 <link href="css/custom.css" rel="stylesheet">
 
-<!-- Custom style -->
-<!-- <link href="style.css" rel="stylesheet"> -->
 </head>
 
 

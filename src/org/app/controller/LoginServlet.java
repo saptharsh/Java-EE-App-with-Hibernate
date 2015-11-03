@@ -25,10 +25,10 @@ protected void processRequest(HttpServletRequest request, HttpServletResponse re
 	 User user = loginService.getUserByUserId(userId);
 	 if(result){
 		 request.getSession().setAttribute("user", user);		
-		 response.sendRedirect("home.jsp");
+		 response.sendRedirect("newHome.jsp");
 	 }
 	 else{
-		 response.sendRedirect("login.jsp");
+		 response.sendRedirect("newLogin.jsp");
 	 }
 }
 @Override

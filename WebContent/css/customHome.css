@@ -1,0 +1,110 @@
+body {
+	min-height: 570px;
+  	background-color: #eee;
+}
+
+.navbar {
+	border: 0;
+	padding: 10px 0;
+	background-color: #0c1249 
+}
+
+.navbar-header .navbar-brand{
+	padding-top: 0px;	
+	
+}
+/* index.php */
+.container {
+	min-height: 570px;
+}
+
+.navbar-collapse .navbar-nav>li>a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navbar a:hover{
+    color: #000 !important;
+    
+}
+
+.leftTop-block {
+	border: 1px solid #333;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.cart-block{
+    background: #5f6066;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.status-block{
+	background: #fff;
+	
+}
+
+.status-block a {
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #666;
+	background: #333;
+	padding: 4px;
+}
+
+.main-content {
+	padding: 10px;
+}
+
+.panel-list a{
+    display: block;
+    color: #333;
+}
+
+.panel-list .panel-heading h3{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.panel-heading-dark{
+    background: #5f6066 !important;
+    color: #fff !important;
+}
+
+.panel-heading-green{
+    background: #a4a9d6 !important;
+    color: #fff !important;
+}
+
+
+.form-group input[type="text"] {
+    width: 350px;
+}
+
+.navbar-collapse .btn {
+	padding-top: 5px;    
+    
+}
+
+.footer{
+    background: #050719;
+    color: #fff;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+
