@@ -1,9 +1,3 @@
-<%--
-Document : register
-Created on : Nov 5, 2012, 7:22:35 PM
-Author	 : mano
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,7 +7,7 @@ Author	 : mano
 	 <title>Registration Page</title>	
 </head>
 <body>
-<center>
+<div>
 	 <div id="mystyle" class="myform">
 		 <form id="form" name="form" method="post" action="RegisterServlet">
 			 <h1>Registration</h1>
@@ -54,6 +48,6 @@ Author	 : mano
 
 		 </form>
 	 </div>
-</center>
+</div>
 </body>
 </html>

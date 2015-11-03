@@ -17,12 +17,11 @@ Author	 : mano
 	 <title>Home Page</title>	
 </head>
 <body>
-<center>
+<div>
 	 <div id="mystyle">
-		 <h1>Java, C++, J2EE, Tutorial</h1>
-		 <p><a href="http://www.forum.codecall.net">http://www.forum.codecall.net</a><br/>
-			 <b>Integrating JSP, Hibernate in an MVC Application</b><br/>
-			 <%=new Date()%></br>
+		 <h1>MVC Java with Hibernate and Servlets</h1>
+		 <p>
+			 <%=new Date()%><br/>
 			 <%
 				 User user = (User) session.getAttribute("user");
 			 %>		
@@ -60,6 +59,6 @@ Author	 : mano
 		 <br/>
 	 </div>
 
-</center>		
+</div>		
 </body>
 </html>
