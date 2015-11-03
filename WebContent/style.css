@@ -21,13 +21,13 @@ p, h1, form, button {
 
 .myform {
 	margin: 0 auto;
-	width: 400px;
+	width: 600px;
 	padding: 14px;
 }
 
 #mystyle {
-	border: solid 2px burlywood;
-	background: antiquewhite;
+	/*border: solid 2px burlywood;*/
+	/*background: antiquewhite;*/
 	border-radius: 5px;
 }
 
@@ -67,7 +67,7 @@ p, h1, form, button {
 	font-size: 12px;
 	padding: 4px 2px;
 	border: solid 1px burlywood;
-	width: 200px;
+	width: 400px;
 	margin: 2px 0 20px 10px;
 	border-radius: 5px;
 }
