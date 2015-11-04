@@ -34,7 +34,7 @@
 
 					<label>First Name</label> <input type="text" class="form-control"
 						name="firstName" id="firstName"
-						placeholder="Enter your first name" />
+						placeholder="Enter your first name" required>
 				</div>
 
 				<div class="form-group">
@@ -45,23 +45,23 @@
 
 				<div class="form-group">
 					<label>Last Name </label> <input type="text" class="form-control"
-						name="lastName" id="lastName" placeholder="Enter your last name" />
+						name="lastName" id="lastName" placeholder="Enter your last name" required>
 				</div>
 
 				<div class="form-group">
 					<label>Email</label> <input type="email" class="form-control"
-						name="email" id="email" placeholder="Ex: eric20@gmail.com" />
+						name="email" id="email" placeholder="Ex: eric20@gmail.com" required>
 				</div>
 
 				<div class="form-group">
 					<label>User ID </label> <input type="text" class="form-control"
-						name="userId" id="userId" placeholder="Enter your user ID" />
+						name="userId" id="userId" placeholder="Enter your user ID" required>
 				</div>
 
 				<div class="form-group">
 					<label>Password </label> <input type="password"
 						class="form-control" name="password" id="password"
-						placeholder="Password min. 6 chars" />
+						placeholder="Password min. 6 chars" required>
 				</div>
 
 				<div class="form-group">

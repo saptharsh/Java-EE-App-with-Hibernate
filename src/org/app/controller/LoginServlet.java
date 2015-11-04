@@ -28,7 +28,7 @@ protected void processRequest(HttpServletRequest request, HttpServletResponse re
 		 response.sendRedirect("newHome.jsp");
 	 }
 	 else{
-		 response.sendRedirect("newLogin.jsp");
+		 response.sendRedirect("Error.jsp");
 	 }
 }
 @Override

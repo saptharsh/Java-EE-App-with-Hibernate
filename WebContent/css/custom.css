@@ -1,4 +1,4 @@
-/* General Design */
+/* Website Cover Design */
 body {
 	background-color: #eee;
 }
@@ -26,6 +26,10 @@ body {
   margin: 0 auto;
 }
 
-
+.error-block {
+	margin-top: 50px;
+	padding: 30px;
+	background: #fff;
+}
 
 

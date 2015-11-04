@@ -38,8 +38,10 @@ protected void processRequest(HttpServletRequest request, HttpServletResponse re
 		 out.println("<body>");
 		 out.println("<center>");
 		 if(result){
-			 out.println("<h1>Registration Successful</h1>");
-			 out.println("To login with new UserId and Password<a href=login.jsp>Click here</a>");
+			 
+			 response.sendRedirect("success.jsp");
+			 //out.println("<h1>Registration Successful</h1>");
+			 //out.println("To login with new UserId and Password<a href=newLogin.jsp>Click here</a>");
 		 }else{
 			 out.println("<h1>Registration Unsuccessful</h1>");
 			 out.println("To try again<a href=register.jsp>Click here</a>");
