@@ -22,10 +22,6 @@
 <!-- Custom styles for this template -->
 <link href="css/customHome.css" rel="stylesheet">
 
-
-<!-- Bootstrap core JavaScript
-        ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
@@ -102,6 +98,7 @@
 						<b>Status</b>
 					</div>
 					<div class="status-block">
+						<!-- Getting User attributes from the SESSION -->
 						<b style="padding: 10px;"> Welcome <%=user.getFirstName() + " " + user.getLastName()%></b>
 						<a href="LogoutServlet">Logout</a>
 					</div>
